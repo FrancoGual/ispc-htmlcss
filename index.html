@@ -13,13 +13,14 @@
     </header>
     <nav class="navbar">
       <ul>
-        <li>Página principal</li>
+        <li><a href="index.html">Página Principal</a></li>
         <li><a href="quiz.html">Cuestionarios</a></li>
         <li><a href="about.html">Información del sitio</a></li>
       </ul>
     </nav>
-    <article>
+    <article style="background-color: white">
       <h2>P vs NP</h2>
+      <h3>What is it?</h3>
       <p>
         The P versus NP problem is a major unsolved problem in theoretical
         computer science. In informal terms, it asks whether every problem whose
@@ -27,9 +28,38 @@
         informal term quickly, used above, means the existence of an algorithm
         solving the task that runs in polynomial time, such that the time to
         complete the task varies as a polynomial function on the size of the
-        input to the algorithm (as opposed to, say, exponential time). <br />
-        source: wikipedia
+        input to the algorithm (as opposed to, say, exponential time).
       </p>
+      <p>
+        An answer to the P versus NP question would determine whether problems
+        that can be verified in polynomial time can also be solved in polynomial
+        time. If it turns out that P ≠ NP, which is widely believed, it would
+        mean that there are problems in NP that are harder to compute than to
+        verify: they could not be solved in polynomial time, but the answer
+        could be verified in polynomial time. <br />
+        <span style="font-size: x-small">
+          Source:
+          <a href="https://en.wikipedia.org/wiki/P_versus_NP_problem"
+            >Wikipedia</a
+          ></span
+        >
+      </p>
+      <h3>NP-complete problems</h3>
+      <p>
+        The easiest way to prove that some new problem is NP-complete is first
+        to prove that it is in NP, and then to reduce some known NP-complete
+        problem to it. Therefore, it is useful to know a variety of NP-complete
+        problems. The list below contains some well-known problems that are
+        NP-complete when expressed as decision problems.
+      </p>
+      <ul>
+        <li>Graph coloring problem</li>
+        <li>Hamiltonian path problem</li>
+      </ul>
+      <h4>Graph coloring</h4>
+      <p>some content</p>
+      <h4>Hamiltonian path problem</h4>
+      <p>other content</p>
     </article>
   </body>
 </html>
