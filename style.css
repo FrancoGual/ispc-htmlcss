@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(200, 245, 239);
+  background-color: rgb(217, 250, 246);
 }
 
 a {
@@ -61,8 +61,4 @@ h5 {
 h6 {
   font-size: large;
   font-weight: normal;
-}
-
-#contact-me {
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
