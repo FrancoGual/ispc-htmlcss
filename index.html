@@ -15,6 +15,7 @@
     <style type="text/css">
       footer {
         background-color: rgb(135, 128, 165);
+        min-height: 100px;
       }
 
       #contact-me {
@@ -27,19 +28,21 @@
     </style>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
+    <div class="container d-flex flex-column min-vh-100">
+      <div class="row bg-light">
         <div class="col-4">
           <header>
             <h1>Título de página.</h1>
           </header>
         </div>
         <div class="col-8">
-          <nav class="navbar">
+          <nav class="navbar bg-light">
             <ul>
               <li><a href="index.html">Página Principal</a></li>
-              <li><a href="quiz.html">Cuestionarios</a></li>
-              <li><a href="about.html">Información del sitio</a></li>
+              <li><a href="about.html">Información</a></li>
+              <li>
+                <a href="https://github.com/FrancoGual/ispc-htmlcss">GitHub</a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -119,7 +122,7 @@
         </div>
       </div>
 
-      <footer>
+      <footer class="mt-auto">
         <h6>Información de contacto:</h6>
         <p id="contact-me">
           Email: ignacio.gual@mi.unc.edu.ar<br />Córdoba, Argentina
