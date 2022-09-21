@@ -28,26 +28,44 @@
     </style>
   </head>
   <body>
-    <div class="container d-flex flex-column min-vh-100">
-      <div class="row bg-light">
-        <div class="col-4">
-          <header>
-            <h1>Título de página.</h1>
-          </header>
+    <div class="container-fluid">
+      <nav class="row navbar bg-light">
+        <div class="col-2">
+          <h1>Logo</h1>
         </div>
-        <div class="col-8">
-          <nav class="navbar bg-light">
+        <div class="col-4">
+          <div class="navigation">
             <ul>
-              <li><a href="index.html">Página Principal</a></li>
-              <li><a href="about.html">Información</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">Contacto</a></li>
               <li>
                 <a href="https://github.com/FrancoGual/ispc-htmlcss">GitHub</a>
               </li>
             </ul>
-          </nav>
+          </div>
         </div>
-      </div>
-
+        <div class="col-3">
+          <form class="form-inline my-2 my-lg-0">
+            <div class="input-group mb-3">
+              <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button
+                class="btn btn-outline-success my-2 my-sm-0"
+                type="submit"
+              >
+                Buscar
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-3"><p>login</p></div>
+      </nav>
+    </div>
+    <div class="container d-flex flex-column min-vh-100">
       <div class="row">
         <div class="col-2">
           <h4>Sidenav</h4>
