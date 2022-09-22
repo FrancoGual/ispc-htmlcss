@@ -25,7 +25,7 @@ header {
 }
 
 .navigation li a:hover {
-  background-color: rgb(101, 146, 90);
+  background-color: rgb(199, 219, 177);
 }
 
 p {
@@ -64,4 +64,17 @@ h5 {
 h6 {
   font-size: large;
   font-weight: normal;
+}
+
+footer {
+  background-color: rgb(135, 128, 165);
+  min-height: 100px;
+}
+
+#contact-me {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+  text-decoration: none;
 }
