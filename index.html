@@ -14,7 +14,7 @@
     />
   </head>
   <body>
-    <div class="container-fluid d-flex flex-column min-vh-100 gx-0">
+    <div class="container-fluid d-flex flex-column min-vh-100">
       <nav class="row navbar .navbar-expand{-sm|-md|-lg|-xl} bg-light">
         <div class="col-2">
           <h1>FrynAPP</h1>
@@ -51,15 +51,18 @@
         <div class="col-3 mt-auto"><p>login</p></div>
       </nav>
 
-      <header class="container-fluid">
+      <header>
         <div id="header-cont">
           <h1>Welcome to Fryna!</h1>
           <p>Aprende más sobre esta pagina mediante nuestro tour.</p>
-          <button type="button" class="btn btn-primary">
-            Quiero aprender más
-          </button>
-          <a href="" class="btn btn-info" role="button">Salir</a>
-        </div>
+          <span>
+            <button type="button" class="btn btn-primary">
+              Quiero aprender más
+            </button>
+            <a href="" class="btn btn-success" role="button">Alguna otra opción</a>
+          </div>
+          </span>
+
       </header>
 
       <div class="container">
@@ -72,65 +75,70 @@
             </ul>
           </div>
           <div class="col-7">
-            <article style="background-color: white">
-              <h2>P vs NP</h2>
-              <p class="subtitle">
-                Roughly speaking, P is a set of relatively easy problems, and NP
-                is a set that includes what seem to be very, very hard problems,
-                so P = NP would imply that the apparently hard problems actually
-                have relatively easy solutions. <br />
-                Here are the details.
-              </p>
-              <img
-                src="img/chess-gf9f4726d8_640.jpg"
-                alt="Piezas de ajedrez sobre un tablero"
-                style="width: 100%"
-              />
-              <h3>What is it?</h3>
-              <p>
-                The P versus NP problem is a major unsolved problem in
-                theoretical computer science. In informal terms, it asks whether
-                every problem whose solution can be quickly verified can also be
-                quickly solved. The informal term quickly, used above, means the
-                existence of an algorithm solving the task that runs in
-                polynomial time, such that the time to complete the task varies
-                as a polynomial function on the size of the input to the
-                algorithm (as opposed to, say, exponential time).
-              </p>
-              <p>
-                An answer to the P versus NP question would determine whether
-                problems that can be verified in polynomial time can also be
-                solved in polynomial time. If it turns out that P ≠ NP, which is
-                widely believed, it would mean that there are problems in NP
-                that are harder to compute than to verify: they could not be
-                solved in polynomial time, but the answer could be verified in
-                polynomial time. <br />
-                <span style="font-size: x-small">
-                  Source:
-                  <a href="https://en.wikipedia.org/wiki/P_versus_NP_problem"
-                    >Wikipedia</a
-                  ></span
-                >
-              </p>
-              <h3>NP-complete problems</h3>
-              <p>
-                The easiest way to prove that some new problem is NP-complete is
-                first to prove that it is in NP, and then to reduce some known
-                NP-complete problem to it. Therefore, it is useful to know a
-                variety of NP-complete problems. The list below contains some
-                well-known problems that are NP-complete when expressed as
-                decision problems.
-              </p>
-              <ul>
-                <li>Graph coloring problem</li>
-                <li>Hamiltonian path problem</li>
-              </ul>
-              <h4>Graph coloring</h4>
-              <p>some content</p>
-              <h5>Graph Coloring algorithms</h5>
-              <h4>Hamiltonian path problem</h4>
-              <p>other content</p>
-            </article>
+            <section>
+              <article style="background-color: white">
+                <h2>P vs NP</h2>
+                <p class="subtitle">
+                  Roughly speaking, P is a set of relatively easy problems, and NP
+                  is a set that includes what seem to be very, very hard problems,
+                  so P = NP would imply that the apparently hard problems actually
+                  have relatively easy solutions. <br />
+                  Here are the details.
+                </p>
+                <img
+                  src="img/chess-gf9f4726d8_640.jpg"
+                  title="Chessboard"
+                  alt="Piezas de ajedrez sobre un tablero"
+                  style="width: 100%"
+                />
+                <h3>What is it?</h3>
+                <p>
+                  The P versus NP problem is a major unsolved problem in
+                  theoretical computer science. In informal terms, it asks whether
+                  every problem whose solution can be quickly verified can also be
+                  quickly solved. The informal term quickly, used above, means the
+                  existence of an algorithm solving the task that runs in
+                  polynomial time, such that the time to complete the task varies
+                  as a polynomial function on the size of the input to the
+                  algorithm (as opposed to, say, exponential time).
+                </p>
+                <p>
+                  An answer to the P versus NP question would determine whether
+                  problems that can be verified in polynomial time can also be
+                  solved in polynomial time. If it turns out that P ≠ NP, which is
+                  widely believed, it would mean that there are problems in NP
+                  that are harder to compute than to verify: they could not be
+                  solved in polynomial time, but the answer could be verified in
+                  polynomial time. <br />
+                  <span style="font-size: x-small">
+                    Source:
+                    <a href="https://en.wikipedia.org/wiki/P_versus_NP_problem"
+                      >Wikipedia</a
+                    ></span
+                  >
+                </p>
+                <h3>NP-complete problems</h3>
+                <p>
+                  The easiest way to prove that some new problem is NP-complete is
+                  first to prove that it is in NP, and then to reduce some known
+                  NP-complete problem to it. Therefore, it is useful to know a
+                  variety of NP-complete problems. The list below contains some
+                  well-known problems that are NP-complete when expressed as
+                  decision problems.
+                </p>
+                <ul>
+                  <li>Graph coloring problem</li>
+                  <li>Hamiltonian path problem</li>
+                </ul>
+                <h4>Graph coloring</h4>
+                <img src="img/the-matrix.webp" class="img-fluid" title="The Matrix (1999)" alt="Personajes de la pelicula Matrix (1999).">
+                <p>some content</p>
+                <h5>Graph Coloring algorithms</h5>
+                <h4>Hamiltonian path problem</h4>
+                <img src="img/coding-g773f90d3c_640.jpg" class="img-fluid" title="Laptop" alt="Teclado de una computadora portatil.">
+                <p>other content</p>
+              </article>
+            </section>
           </div>
           <div class="col-3">
             <aside>
@@ -142,20 +150,49 @@
       </div>
 
       <footer class="mt-auto">
-        <div class="row">
-          <div class="col-6">
-            <h6>Información de contacto:</h6>
-            <p id="contact-me">
-              Email: ignacio.gual@mi.unc.edu.ar<br />Córdoba, Argentina
-            </p>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <h4>Links</h4>
+              <ul class="list-unstyled three-column">
+                <li>Home</li>
+                <li>Blog</li>
+                <li>Tienda</li>
+                <li>Design</li>
+              </ul>
+              <h4>Comunidad</h4>
+              <ul class="list-unstyled">
+                <li>Foro</li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h3>Ver otros articulos</h3>
+              <div>
+                <div>
+                  <h4>Diseño</h4>
+                  <p>Mas sobre diseño de paginas web en CSS.</p>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <h4>Algoritmos</h4>
+                  <p>something something something</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-4">
+              <h4>Contactanos</h4>
+              <p></p>
+              <p>Tel: (351) 0-303456</p>
+              <p>Email: ignacio.gual@mi.unc.edu.ar</p>
+            </div>
+            
           </div>
-          <div class="col-6">
-            <h6>Contactanos a traves de nuestras redes sociales.</h6>
-            <ul>
-              <li>instagram</li>
-              <li>twitter</li>
-            </ul>
-          </div>
+        </div>
+        <hr/>
+        <div class="text-center">
+          Informacion copyright &copy;
         </div>
       </footer>
     </div>
